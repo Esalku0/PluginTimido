@@ -1,0 +1,85 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "Pyrus me hizo el lio/1.0.0": {
+        "dependencies": {
+          "EXILED": "5.2.1"
+        },
+        "runtime": {
+          "Pyrus me hizo el lio.dll": {}
+        }
+      },
+      "EXILED/5.2.1": {
+        "runtime": {
+          "lib/net472/Assembly-CSharp-Publicized.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net472/CommandSystem.Core.dll": {
+            "assemblyVersion": "0.0.0.0",
+            "fileVersion": "0.0.0.0"
+          },
+          "lib/net472/Exiled.API.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.Bootstrap.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.CreditTags.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.CustomItems.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.CustomRoles.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.Events.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.Loader.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.Permissions.dll": {
+            "assemblyVersion": "5.2.1.0",
+            "fileVersion": "5.2.1.0"
+          },
+          "lib/net472/Exiled.Updater.dll": {
+            "assemblyVersion": "3.1.1.0",
+            "fileVersion": "3.1.1.0"
+          },
+          "lib/net472/NorthwoodLib.dll": {
+            "assemblyVersion": "1.2.1.0",
+            "fileVersion": "1.2.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Pyrus me hizo el lio/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EXILED/5.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5F6vdWxz2N8IPSHJsaq5xEhBGiBO/2oOXy6PuKq+vkD5/dZTuc/qYx9iS3GNsII8O/vdZKCxGU7wyPMw9o+aKA==",
+      "path": "exiled/5.2.1",
+      "hashPath": "exiled.5.2.1.nupkg.sha512"
+    }
+  }
+}

@@ -15,19 +15,48 @@ namespace Pyrus_me_hizo_el_lio
 {
     internal class Jugador : Plugin<Config>
     {
+
+
+
         public bool partidaAcabada = false;
+        private readonly Zombie plugin;
+        Zombie z1;
+        public Jugador(Zombie plugin) => this.plugin = plugin;
 
 
-        public void OnPlayerVerified(VerifiedEventArgs ev)
+
+        public void CreateZombie(VerifiedEventArgs ev)
         {
             Player jogador = ev.Player;
-            Zombie zomb1 = new Zombie();
+            z1 = new Zombie(jogador.Id, jogador.Nickname, jogador.UserId);
+        }
 
-            if (Zombie.ContainsKey(ev.Player.UserId))
+
+
+
+        public void SiCambiaRol(ChangingRoleEventArgs ev)
+        {
+            Player player = ev.Player;
+            if (this.plugin.Zombies.ContainsKey(player.UserId))
             {
-                Z[ev.Player.UserId] = new Zombie(jogador.Id, jogador.Nickname, jogador.UserId, jogador.IPAddress);
+                if (plugin.Zombies[player.UserId].Disconnected && Config.RagueQuit)
+                {
+                    plugin.Zombies[player.UserId].Disconnected = false;
+                    ev.NewRole = RoleType.Scp0492;
+                }
             }
         }
+
+
+
+
+
+
+
+
+
+
+
 
 
 

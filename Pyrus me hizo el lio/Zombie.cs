@@ -14,8 +14,10 @@ namespace Pyrus_me_hizo_el_lio
             public string SteamId;
             public bool Undead = false;
             public bool Disconnected = false;
+            public Dictionary<string, Zombie> Zombies = new Dictionary<string, Zombie>();
 
-            public Zombie(int playerId, string name, string steamId, string ipAddress)
+
+        public Zombie(int playerId, string name, string steamId)
             {
                 this.PlayerId = playerId;
                 this.Name = name;
