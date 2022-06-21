@@ -24,7 +24,7 @@ namespace Pyrus_me_hizo_el_lio
         public Jugador(Zombie plugin) => this.plugin = plugin;
 
 
-
+        //Metodo que nos instancia a un jugador como zombie
         public void CreateZombie(VerifiedEventArgs ev)
         {
             Player jogador = ev.Player;
@@ -33,7 +33,7 @@ namespace Pyrus_me_hizo_el_lio
 
 
 
-
+        //Comprobamos si el jugador tiene una id, si el jugador esta desconectado y se conecta, el jugador pasara al rol de zombie.
         public void SiCambiaRol(ChangingRoleEventArgs ev)
         {
             Player player = ev.Player;
