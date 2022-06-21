@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "dgSpecHash": "uNYn+lKuvC1O0foZkmY9T023Kaq0434td3F/7t2Eac4QTl4AkwxQvFEsZsF9HYXXj2dzfPM+6f3uxnQaJRLlKQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\Estanis-\\Desktop\\Pyrus me hizo el lio\\Pyrus me hizo el lio\\Pyrus me hizo el lio.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Estanis-\\.nuget\\packages\\exiled\\5.2.1\\exiled.5.2.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "El paquete \"EXILED 5.2.1\" se restauró con \".NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8\" en lugar de la plataforma de destino del proyecto \"net5.0\". Puede que el paquete no sea totalmente compatible con el proyecto.",
+      "libraryId": "EXILED",
+      "targetGraphs": [
+        "net5.0"
+      ]
+    }
+  ]
+}
