@@ -19,18 +19,23 @@ namespace Pyrus_me_hizo_el_lio
         //Booleano que guarda si el zombie se ha desconectado o no
         public bool RagueQuit { get; set; } = false;
         //Variable que almacena el porcentaje de vida que se cura por golpe
-        public double VidaAlAtacar { get; set; } = 10;
+        public double vidaAlAtacar = 10;
         //Variable que almacena el porcentaje de vida que se cura por asesinato
-        public double VidaAlAsesinar { get; set; } = 50;
+        public double vidaAlAsesinar = 50;
+
+        public string Mensaje { get; set; } = "Tu rol es de Zombie debido a tu desconexion";
+
+
+        public double VidaAlAtacar  { get { return vidaAlAtacar; } set { vidaAlAtacar = value; } }
+        public double VidaAlAsesinar { get { return vidaAlAsesinar; } set { vidaAlAsesinar = value; } }
 
 
 
 
 
+        public bool IsEnabled { get => throw new NotImplementedException(); set => throw new NotImplementedException();}
 
 
-        public bool IsEnabled { get => throw new NotImplementedException(); set => throw new NotImplementedException();
 
-        }
     }
 }

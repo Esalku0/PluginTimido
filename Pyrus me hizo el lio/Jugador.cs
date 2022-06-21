@@ -16,62 +16,88 @@ namespace Pyrus_me_hizo_el_lio
     internal class Jugador : Plugin<Config>
     {
 
-
-
         public bool partidaAcabada = false;
         private readonly Zombie plugin;
-        Zombie z1;
         public Jugador(Zombie plugin) => this.plugin = plugin;
 
 
-        //Metodo que nos instancia a un jugador como zombie
-        public void CreateZombie(VerifiedEventArgs ev)
+        //Creamos el metodo que nos permite instanciar un zombie
+        public void CrearZombie(VerifiedEventArgs ev)
         {
-            Player jogador = ev.Player;
-            z1 = new Zombie(jogador.Id, jogador.Nickname, jogador.UserId);
+            Player player = ev.Player;
+            if (!this.plugin.Zombies.ContainsKey(ev.Player.UserId))
+            {
+                this.plugin.Zombies[ev.Player.UserId] = new Zombie(player.Id, player.Nickname, player.UserId);
+            }
         }
-
 
 
         //Comprobamos si el jugador tiene una id, si el jugador esta desconectado y se conecta, el jugador pasara al rol de zombie.
         public void SiCambiaRol(ChangingRoleEventArgs ev)
         {
             Player player = ev.Player;
-            if (this.plugin.Zombies.ContainsKey(player.UserId))
+            if (partidaAcabada==false)
             {
-                if (plugin.Zombies[player.UserId].Disconnected && Config.RagueQuit)
+                if (this.plugin.Zombies.ContainsKey(player.UserId))
                 {
-                    plugin.Zombies[player.UserId].Disconnected = false;
-                    ev.NewRole = RoleType.Scp0492;
+                    if (plugin.Zombies[player.UserId].Desconectado && Config.RagueQuit)
+                    {
+                        plugin.Zombies[player.UserId].Desconectado = false;
+
+                        /*
+                            ev.Player.Position() 
+                        */
+                        ev.NewRole = RoleType.Scp0492;
+                        ev.Player.Broadcast(duration: 7, message: Config.Mensaje);
+
+                    }
                 }
             }
         }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        //Metodo de prueba que avisa del jugador que se ha conectado al servidor
-        public void OnConnect(JoinedEventArgs ev)
+        //Comprobamos si la configuracion de la recuperacion de vida por ataque es menor que 0
+        public double ComprobarVidaAtaque()
         {
-            Map.Broadcast(duration: 6, message:$"{ev.Player} has connected");
+            if (Config.VidaAlAtacar<0)
+            {
+                Config.vidaAlAtacar = 0;
+            }
+            return Config.VidaAlAtacar;
+        }
+        //Comprobamos si la configuracion de la recuperacion de vida por asesinato es menor que 0
+        public double ComprobarVidaAsesinar()
+        {
+            if (Config.VidaAlAsesinar < 0)
+            {
+                Config.VidaAlAsesinar = 0;
+            }
+            return Config.VidaAlAsesinar;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+        //METODOS DE PRUEBA
+        //
+        //Metodo de prueba que avisa del jugador que se ha conectado al servidor
+        public void Conexion(JoinedEventArgs ev)
+        {
+            Map.Broadcast(duration: 6, message:$"{ev.Player} se conectó");
      
         }
 
         //Metodo de prueba que avisa que jugador se ha desconectado                                                                                                                             
-        public void OnLeft(LeftEventArgs ev)
+        public void Desconexion(LeftEventArgs ev)
         {
-            Map.Broadcast(duration: 6, message: $"{ev.Player} has Left");
+            Map.Broadcast(duration: 6, message: $"{ev.Player} salió del servidor");
         }
         
         
