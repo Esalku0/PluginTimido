@@ -45,18 +45,26 @@ namespace Pyrus_me_hizo_el_lio
                         plugin.Zombies[player.UserId].Desconectado = false;
 
 
+
+
+                        /* Intento para spawnear al zombie en la sala del 049
+                         * 
+                        ev.Player.Position = RoomType.Hcz049()
+                        */
+
+
                         /*Intento de recorrer la lista de jugadores y sacar al scp049 para enviarle un mensaje
-                        //
-                        //
+                         * 
+                         * 
                         foreach (Player players in Exiled.API.Features.Player.List)
                         {
-                            if (ev.Player.Role.Is<> )
+                            if (ev.Player.Role.Is<>
                             {
-                                ev.Player.Broadcast(duration: 7, message: Config.Aviso049);
+
                             }
                         }
-                       */
 
+                       */
                         ev.NewRole = RoleType.Scp0492;
                         ev.Player.Broadcast(duration: 7, message: Config.Mensaje);
 
