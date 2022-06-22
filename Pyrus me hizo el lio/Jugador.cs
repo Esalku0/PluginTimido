@@ -45,8 +45,6 @@ namespace Pyrus_me_hizo_el_lio
                         plugin.Zombies[player.UserId].Desconectado = false;
 
 
-
-
                         /* Intento para spawnear al zombie en la sala del 049
                          * 
                         ev.Player.Position = RoomType.Hcz049()
@@ -65,6 +63,7 @@ namespace Pyrus_me_hizo_el_lio
                         }
 
                        */
+
                         ev.NewRole = RoleType.Scp0492;
                         ev.Player.Broadcast(duration: 7, message: Config.Mensaje);
 
@@ -82,6 +81,7 @@ namespace Pyrus_me_hizo_el_lio
             }
             return Config.VidaAlAtacar;
         }
+
         //Comprobamos si la configuracion de la recuperacion de vida por asesinato es menor que 0
         public double ComprobarVidaAsesinar()
         {

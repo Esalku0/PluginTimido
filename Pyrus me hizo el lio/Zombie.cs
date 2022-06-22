@@ -15,7 +15,6 @@ namespace Pyrus_me_hizo_el_lio
             public bool Desconectado = false;
             public Dictionary<string, Zombie> Zombies = new Dictionary<string, Zombie>();
 
-
             public Zombie(int playerId, string name, string steamId)
             {
                 this.PlayerId = playerId;
@@ -23,6 +22,8 @@ namespace Pyrus_me_hizo_el_lio
                 this.SteamId = steamId;
             }
 
+
+            //Metodo que nos devuelve todos los datos del jugador zombie en cadena de string
             public override string ToString()
             {
                 return "[ PlayerId: " + PlayerId + ", Name: " + Name + ", SteamID: " + SteamId + ", Desconectado: " + Desconectado + " ]";
