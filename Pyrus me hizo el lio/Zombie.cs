@@ -13,7 +13,7 @@ namespace Pyrus_me_hizo_el_lio
             public string Name;
             public string SteamId;
             public bool Desconectado = false;
-            public Dictionary<string, Zombie> Zombies = new Dictionary<string, Zombie>();
+
 
             public Zombie(int playerId, string name, string steamId)
             {

@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "uNYn+lKuvC1O0foZkmY9T023Kaq0434td3F/7t2Eac4QTl4AkwxQvFEsZsF9HYXXj2dzfPM+6f3uxnQaJRLlKQ==",
+  "dgSpecHash": "2pGx8h3OuFuQ+rbi+g00elZ2uKcx5ON4kXnIhHq7x6iSei9LjvtQIuYfCLkaSt/uhuyoLwnBAJa2D8MHJmCStQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Estanis-\\Desktop\\Pyrus me hizo el lio\\Pyrus me hizo el lio\\Pyrus me hizo el lio.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Estanis-\\.nuget\\packages\\bond.core.csharp\\10.0.0\\bond.core.csharp.10.0.0.nupkg.sha512",
     "C:\\Users\\Estanis-\\.nuget\\packages\\exiled\\5.2.1\\exiled.5.2.1.nupkg.sha512"
   ],
   "logs": [

@@ -1,0 +1,105 @@
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.csproj.AssemblyReference.cache
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.AssemblyInfoInputs.cache
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.AssemblyInfo.cs
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.csproj.CoreCompileInputs.cache
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Pyrus me hizo el lio.deps.json
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Pyrus me hizo el lio.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Pyrus me hizo el lio.pdb
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Accessibility.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\AmplifyBloom.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Assembly-CSharp-firstpass.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\BouncyCastle.Crypto.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\CloudflareSolverRe.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\DissonanceVoip.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Facepunch.Steamworks.Win64.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mirror.Components.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mirror.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mono.Data.Sqlite.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mono.Nat.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mono.Posix.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mono.Security.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Mono.WebBrowser.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Novell.Directory.Ldap.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\sc.posteffects.runtime.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.ComponentModel.Composition.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Design.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.DirectoryServices.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Drawing.Design.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.EnterpriseServices.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Runtime.Serialization.Formatters.Soap.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.ServiceModel.Internals.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Web.ApplicationServices.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Web.Services.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\System.Windows.Forms.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Unity.Mathematics.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Unity.Postprocessing.Runtime.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Unity.TextMeshPro.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\Unity.Timeline.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AccessibilityModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AIModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AndroidJNIModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AnimationModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ARModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AssetBundleModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.AudioModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ClothModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ClusterInputModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ClusterRendererModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.CoreModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.CrashReportingModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.DirectorModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.DSPGraphModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.GameCenterModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.GridModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.HotReloadModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ImageConversionModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.IMGUIModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.InputLegacyModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.InputModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.JSONSerializeModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.LocalizationModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ParticleSystemModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.PerformanceReportingModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.Physics2DModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.PhysicsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ProfilerModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.ScreenCaptureModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.SharedInternalsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.SpriteMaskModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.SpriteShapeModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.StreamingModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.SubstanceModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.SubsystemsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TerrainModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TerrainPhysicsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TextCoreModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TextRenderingModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TilemapModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.TLSModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UI.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UIElementsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UIModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UmbraModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UNETModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityAnalyticsModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityConnectModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityTestProtocolModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityWebRequestAssetBundleModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityWebRequestAudioModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityWebRequestModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityWebRequestTextureModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.UnityWebRequestWWWModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.VehiclesModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.VFXModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.VideoModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.VRModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.WindModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\UnityEngine.XRModule.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\bin\Release\net5.0\zxing.unity.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.csproj.CopyComplete
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\refint\Pyrus me hizo el lio.dll
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\Pyrus me hizo el lio.pdb
+C:\Users\Estanis-\Desktop\Pyrus me hizo el lio\Pyrus me hizo el lio\obj\Release\net5.0\ref\Pyrus me hizo el lio.dll
