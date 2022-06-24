@@ -29,6 +29,8 @@ namespace Pyrus_me_hizo_el_lio
 
 			Player.Joined += EventHandlers.Conexion;
 			Player.InteractingDoor += EventHandlers.AbrirPuerta;
+			Player.ChangingRole += EventHandlers.Zombie;
+			Player.Left += EventHandlers.OnPlayerLeft;
 			base.OnEnabled();
 		}
 
@@ -36,6 +38,8 @@ namespace Pyrus_me_hizo_el_lio
 		{
 			Player.Joined -= EventHandlers.Conexion;
 			Player.InteractingDoor -= EventHandlers.AbrirPuerta;
+			Player.ChangingRole -= EventHandlers.Zombie;
+			Player.Left += EventHandlers.OnPlayerLeft;
 			EventHandlers = null;
 			base.OnDisabled();
 		}

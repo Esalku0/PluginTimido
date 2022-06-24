@@ -25,56 +25,56 @@ namespace Pyrus_me_hizo_el_lio
 
         public void Conexion(JoinedEventArgs ev)
         {
-            Map.Broadcast(6, $"{ev.Player}se conectó");
+            Map.Broadcast(2, $"{ev.Player}se conectó");
         }
 
         public void AbrirPuerta(InteractingDoorEventArgs ev)
         {
-            Map.Broadcast(6, $"fgddfgd");
+            Map.Broadcast(2, $"Puerta abierta");
         }
 
 
 
-        public void zombie(ChangingRoleEventArgs ev)
+        public void Zombie(ChangingRoleEventArgs ev)
         {
             Player player = ev.Player;
 
             if (Zombies.ContainsKey(ev.Player.UserId))
             {
-                if (Zombies[player.UserId].Desconectado ==false && Config.RagueQuit == true)
+                if (Config.RagueQuit == true)
                 {
                     Zombies[ev.Player.UserId] = new Zombie(player.Id, player.Nickname, player.UserId);
                     ev.NewRole = RoleType.Scp0492;
+                    ev.Player.Broadcast(6, "Al desconectarte siendo zombie, reapareces como zombie");
                 }
             }
         }
 
-        public void ZombieSaliendose(LeftEventArgs ev)
+        /*
+        public void OnPlayerRole(DiedEventArgs ev)
         {
-            if (ev.Player.IsScp.scp)
+            if (ev.Killer.Role == RoleType.Scp049)
             {
+                if (Zombies[ev.Id].Desconectado = true)
+                {
+                    
+                }
+            }
+        }
+        */
 
+        public void OnPlayerLeft(LeftEventArgs ev)
+        {
+            if (ev.Player.Role == RoleType.Scp0492)
+            {
+                if (Config.RagueQuit==false)
+                {
+                    Config.RagueQuit = true;
+                }
             }
         }
 
 
-        public double ComprobarVidaAtaque()
-        {
-            if (Config.VidaAlAtacar < 0)
-            {
-                Config.vidaAlAtacar = 0;
-            }
-            return Config.VidaAlAtacar;
-        }
-
-        public double ComprobarVidaAsesinar()
-        {
-            if (Config.VidaAlAsesinar < 0)
-            {
-                Config.VidaAlAsesinar = 0;
-            }
-            return Config.VidaAlAsesinar;
-        }
 
 
 
