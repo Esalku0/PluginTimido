@@ -30,25 +30,53 @@ namespace Pyrus_me_hizo_el_lio
 
         public void AbrirPuerta(InteractingDoorEventArgs ev)
         {
-            Map.Broadcast(2, $"Puerta abierta");
+            Map.Broadcast(2,  "Puerta abierta");
         }
 
 
 
-        public void Zombie(ChangingRoleEventArgs ev)
+        public void ZombieEntra(ChangingRoleEventArgs ev)
         {
             Player player = ev.Player;
+            Config configuracion = new Config();
 
             if (Zombies.ContainsKey(ev.Player.UserId))
             {
-                if (Config.RagueQuit == true)
+                if (Zombie.RagueQuit == true)
                 {
                     Zombies[ev.Player.UserId] = new Zombie(player.Id, player.Nickname, player.UserId);
                     ev.NewRole = RoleType.Scp0492;
-                    ev.Player.Broadcast(6, "Al desconectarte siendo zombie, reapareces como zombie");
+                    ev.Player.Broadcast(3, configuracion.Mensaje);
                 }
             }
         }
+
+            public void OnPlayerLeft(LeftEventArgs ev)
+            {
+                if (ev.Player.Role == RoleType.Scp0492)
+                {
+                    if (Zombie.RagueQuit == false)
+                    {
+                        Zombie.RagueQuit = true;
+                    }
+                }
+            }
+
+            public void OnPlayerConnect(JoinedEventArgs ev)
+            {
+                Config configuracion = new Config();
+                if (Zombie.RagueQuit == true)
+                {
+                    foreach (Player player in Exiled.API.Features.Player.List)
+                    {
+                        if (player.Role == RoleType.Scp049)
+                        {
+                        player.Broadcast(3, configuracion.Aviso049);
+                        }
+                    }
+                }
+            }
+
 
         /*
         public void OnPlayerRole(DiedEventArgs ev)
@@ -62,17 +90,6 @@ namespace Pyrus_me_hizo_el_lio
             }
         }
         */
-
-        public void OnPlayerLeft(LeftEventArgs ev)
-        {
-            if (ev.Player.Role == RoleType.Scp0492)
-            {
-                if (Config.RagueQuit==false)
-                {
-                    Config.RagueQuit = true;
-                }
-            }
-        }
 
 
 

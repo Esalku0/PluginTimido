@@ -13,15 +13,19 @@ namespace Pyrus_me_hizo_el_lio
             public string Name;
             public string SteamId;
             public bool Desconectado = false;
+            public static bool RagueQuit { get; set; } = false;
 
-
-            public Zombie(int playerId, string name, string steamId)
+        public Zombie(int playerId, string name, string steamId)
             {
                 this.PlayerId = playerId;
                 this.Name = name;
                 this.SteamId = steamId;
             }
 
+        public Zombie()
+        {
+                
+        }
 
             //Metodo que nos devuelve todos los datos del jugador zombie en cadena de string
             public override string ToString()

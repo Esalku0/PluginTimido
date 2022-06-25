@@ -18,8 +18,6 @@ namespace Pyrus_me_hizo_el_lio
         public double EscudoBase { get; set; } = 100;
         //Cantidad de vida inicial del zombie
         public double VidaBase { get; set; } = 350;
-        //Booleano que guarda si el zombie se ha desconectado o no
-        public static bool RagueQuit { get; set; } = false;
         //Variable que almacena el porcentaje de vida que se cura por golpe
         public double vidaAlAtacar = 10;
         //Variable que almacena el porcentaje de vida que se cura por asesinato
